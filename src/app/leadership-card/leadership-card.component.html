@@ -1,0 +1,26 @@
+<div class="margin">
+  <!-- <div class="toggle">
+    <mat-slide-toggle [formControl]="toggleControl" class="mr-8">
+    </mat-slide-toggle>
+  </div> -->
+  <span>
+    <!-- an array in a for loop to go through each leadership member -->
+    <mat-card *ngFor="let item of items" class="my-card">
+      <mat-card-header>
+        <mat-card-title> {{ item.position }} </mat-card-title>
+        <mat-card-subtitle> {{ item.year }} </mat-card-subtitle>
+        <div class="icons">
+          <a href="{{ item.linkedin }}" target="_blank" class="fa fa-linkedin"></a>
+          <a href="mailto:{{ item.email }}" class="fa fa-envelope-square"></a>
+        </div>
+      </mat-card-header>
+      <div class="img">
+        <img mat-card-image src="{{ item.picture }}" alt="Profile Photo" />
+      </div>
+      <mat-card-content>
+        <p class="name">{{ item.name }}</p>
+        <br />{{ item.bio }}
+      </mat-card-content>
+    </mat-card>
+  </span>
+</div>

@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  max-width: 75%;
+}
+.text-container {
+  //border: 1px solid black;
+  font-family: "Karla";
+  margin-right: 3%;
+  flex: 50%;
+}
+h4 {
+  font-family: "Karla";
+  font-weight: bolder;
+}
+.text-container h4 {
+  text-align: left;
+  color: black;
+  font-size: 25px;
+}
+.text-container p {
+  text-align: left;
+  color: black;
+  font-size: 20px;
+}
+.form-container {
+  //border: 1px solid black;
+  flex: 50%;
+}
+.icon-buttons {
+  background-color: white;
+  border: none;
+  color: black;
+  padding-right: 5%;
+}
+i:hover {
+  color: gray;
+  background-color: white;
+}
+input {
+  display: inline-flex;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 5%;
+  background-color: rgb(242, 242, 242);
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 10px;
+  font-family: "Karla";
+  border: 1.5px solid black;
+}
+textarea {
+  display: inline;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 5%;
+  background-color: rgb(242, 242, 242);
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 10px;
+  font-family: "Karla";
+  border: 1.5px solid black;
+}
+.submit {
+  width: 50%;
+  align-content: center;
+  background-color: white;
+}
+label {
+  font-size: 15px;
+  font-family: "Karla";
+  font-weight: bold;
+  color: black;
+}
+button {
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 16px;
+  padding: 7px 30px;
+  color: black;
+  border: solid 3px transparent;
+  background-color: rgb(100, 100, 100);
+  box-shadow: 2px 1000px 1px #fff inset;
+  font-family: "Karla";
+}
+button:hover {
+  box-shadow: none;
+  color: white;
+}

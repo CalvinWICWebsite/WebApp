@@ -1,0 +1,27 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+.icon-links {
+  text-align: center;
+}
+
+i:hover {
+  color: gray;
+  background-color: white;
+}
+.icon-buttons {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 2%;
+}
+.logo {
+  height: 380px;
+  width: 380px;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}

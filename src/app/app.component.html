@@ -1,0 +1,41 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img src="../assets/logo2.png" width="50px" height="50px" />
+      <a class="navbar-brand" href="#">Women in Computing</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="nav navbar-nav" id="margin_nav">
+        <li><a routerLink="/about">ABOUT</a></li>
+        <li>
+          <div class="headerdivider"></div>
+        </li>
+        <li><a routerLink="/events">EVENTS</a></li>
+        <li>
+          <div class="headerdivider"></div>
+        </li>
+        <li><a routerLink="/leadership">LEADERSHIP</a></li>
+        <li>
+          <div class="headerdivider"></div>
+        </li>
+        <li><a routerLink="/joinus">JOIN US</a></li>
+        <li>
+          <div class="headerdivider"></div>
+        </li>
+        <li><a routerLink="/contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>

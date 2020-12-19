@@ -1,0 +1,63 @@
+* {
+  font-family: "Karla";
+  //border: 1px solid blue;
+}
+.navbar-header {
+  display: inline-flex;
+  font-size: 20px;
+}
+.navbar-brand {
+  color: gray;
+}
+.navbar-brand:hover {
+  color: black;
+}
+.navbar.navbar-expand-lg.navbar-light {
+  margin-top: 1.5vw;
+  //border: 1px solid blue;
+}
+a {
+  display: inline;
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+}
+.container-fluid {
+  border-bottom: 4px solid black;
+  width: 75%;
+  padding-bottom: 15px;
+}
+i {
+  margin: 10px;
+  margin-top: 13px;
+  border: none;
+  background-color: white;
+}
+#margin_nav {
+  //margin-left: 22%;
+  //position: absolute;
+  float: right;
+}
+
+.headerdivider {
+  border-left: 1px solid #38546d;
+  background: #16222c;
+  width: 1px;
+  height: 30px;
+  margin-top: 10px;
+  display: flex-end;
+}
+
+//referenced https://stackoverflow.com/questions/13476267/hide-div-element-when-screen-size-is-smaller-than-a-specific-size/13476297
+@media only screen and (max-width: 1026px){
+  .headerdivider {
+    display: none !important;
+  }
+  .headerdivider.in {
+    display: block !important;
+}
+}

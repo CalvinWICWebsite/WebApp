@@ -1,0 +1,81 @@
+* {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //border: 1px solid blue;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: auto;
+}
+.my-card {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  //margin: auto;
+  //width: max-content;
+  box-shadow: 2px 2px 9px 6px #ccc;
+  //display: inline-block;
+  font-family: "Karla";
+  border-radius: 20px;
+  // documentation https://stackoverflow.com/questions/21672346/css-positioning-two-elements-next-to-each-other/21672491
+  float: left;
+}
+
+mat-card-content {
+  display: inline-block;
+  //margin: 10px;
+  overflow-wrap: normal;
+  width: 400px;
+  //width: 5vw;
+  height: 290px;
+  //height: 6vw;
+}
+.img {
+  width: 180px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+.icons {
+  font-size: 25px;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: auto;
+}
+a {
+  margin: 5px;
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.804);
+  border-radius: 4px;
+}
+mat-card-subtitle {
+  font-size: 18px;
+}
+mat-card-content {
+  font-size: 15px;
+}
+.bio {
+  margin-top: 10px;
+}
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Karla";
+}
+.sinai-card{
+  margin: 0px;
+}
+.sebene-card{
+  margin: 0px;
+}
+.lauren-card{
+  margin: 0px;
+}
+.emily-card{
+  margin: 0px;
+}

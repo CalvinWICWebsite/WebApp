@@ -1,0 +1,25 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+
+<div class="container">
+    <div class="text-container">
+        <h4>Contact Us</h4>
+        <p>We are always interested in taking with potential<br>or current WIC members.<br><br>
+        Or find us on social media:</p>
+        <a class="icon-buttons" href="https://www.facebook.com/groups/203395590125573" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" style="font-size:50px;"></i></a>
+        <a class="icon-buttons" href="https://www.instagram.com/wic.calvinuniversity/" target="_blank"><i class="fa fa-instagram" style="font-size:50px"></i></a>
+    </div>
+
+    <div class="form-container">
+        <form class="contact-form" (submit)="sendEmail($event)" [formGroup]="myform">
+            <label>Name *</label>
+            <input type="text" name="name" formControlName="inputname"><br>
+            <label>Email Address *</label>
+            <input type="email" name="user_email" formControlName="inputemail"><br>
+            <label>Message *</label>
+            <textarea name="message" formControlName="inputmessage"></textarea>
+            <button type="submit" class="submit-button">SUBMIT</button>
+        </form>
+
+    </div>
+</div>

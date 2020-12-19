@@ -1,0 +1,43 @@
+* {
+  font-family: "Karla";
+}
+.google-calendar {
+  flex: 70%;
+  padding-top: 2%;
+  width: 60%;
+  margin: auto;
+  align-content: center;
+  align-self: center;
+  //border-style: solid;
+}
+.resources {
+  border-left: 3px solid black;
+  //border-style: solid;
+  flex: 30%;
+  margin-left: 5%;
+}
+.container{
+  display: flex;
+  min-width: 80%;
+  margin-top: 3%;
+  //width: auto;
+  //border-style: solid;
+}
+.text-container{
+  //border: 1px solid black;
+  margin-top: 10%;
+  margin-left: 10%;
+  flex: 50%;
+}
+.text-container h4{
+  text-align: left;
+  color: black;
+  font-size: 25px;
+  font-family: "Karla";
+  font-weight: bolder;
+}
+.text-container p{
+  text-align: left;
+  color: black;
+  font-size: 20px;
+}
