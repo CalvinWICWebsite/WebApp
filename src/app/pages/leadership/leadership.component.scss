@@ -28,26 +28,37 @@ mat-card-content {
   display: inline-block;
   //margin: 10px;
   overflow-wrap: normal;
-  width: 400px;
+  width: 410px;
   //width: 5vw;
   height: 290px;
   //height: 6vw;
 }
+
+mat-card-header {
+  //border: 2px solid red;
+  justify-content: left;
+  //text-align: left;
+}
+
 .img {
   width: 180px;
   justify-content: flex-start;
   align-items: flex-start;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
+  margin-top: 15px;
 }
 .icons {
   font-size: 25px;
-  display: inline-block;
-  overflow: hidden;
-  margin-left: auto;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  //display: inline-table;
+  //overflow: hidden;
+  //margin-left: auto;
 }
 a {
+  display: inline;
   margin: 5px;
   padding: 2px;
   background-color: rgba(255, 255, 255, 0.804);
@@ -55,6 +66,7 @@ a {
 }
 mat-card-subtitle {
   font-size: 18px;
+  text-align: left;
 }
 mat-card-content {
   font-size: 15px;

@@ -13,7 +13,6 @@ import { EventsComponent } from "./pages/events/events.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { LeadershipCardComponent } from "./leadership-card/leadership-card.component";
 import { AngularFireModule } from "@angular/fire";
-import { AngularFirestoreModule } from "@angular/fire/firestore";
 import { firebaseConfig } from "./credentials";
 import { MatCardModule } from "@angular/material/card";
 import { MatSlideToggleModule } from "@angular/material/slide-toggle";
@@ -49,8 +48,6 @@ FullCalendarModule.registerPlugins([
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    AngularFireModule,
-    AngularFireModule.initializeApp(firebaseConfig),
     MatCardModule,
     MatSlideToggleModule,
     MatToolbarModule,
