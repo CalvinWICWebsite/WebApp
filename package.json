@@ -29,6 +29,7 @@
     "@fullcalendar/interaction": "^5.4.0",
     "@fullcalendar/list": "^5.4.0",
     "@fullcalendar/timegrid": "^5.4.0",
+    "angular-cli-ghpages": "^1.0.0-rc.1",
     "angular-instafeed": "^1.8.3",
     "bootstrap-icons": "^1.1.0",
     "emailjs": "^3.4.0",
