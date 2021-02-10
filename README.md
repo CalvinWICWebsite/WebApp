@@ -1,6 +1,6 @@
 # Women in Computing Website Ver. 2
 ### Emily Costa (eac33)
-#### Live vesion: (https://wic.calvin.edu/)[https://wic.calvin.edu/]
+#### Live vesion: [https://wic.calvin.edu/](https://wic.calvin.edu/)
 
 This is the most updated version of WIC's website by Emily Costa. This web applicaiton was developed using Angular's framework.
 
