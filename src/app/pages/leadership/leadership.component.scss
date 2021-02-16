@@ -1,9 +1,9 @@
 * {
   margin-top: 10px;
   display: flex;
-  align-items: center;
+  // align-items: center;
   justify-content: center;
-  //border: 1px solid blue;
+  // border: 1px solid blue;
 }
 .container {
   display: flex;
@@ -14,8 +14,6 @@
   margin-right: 40px;
   margin-left: 40px;
   margin-bottom: 50px;
-  //margin: auto;
-  //width: max-content;
   box-shadow: 2px 2px 9px 6px #ccc;
   //display: inline-block;
   font-family: "Karla";
@@ -52,12 +50,16 @@ mat-card-header {
   //overflow: hidden;
   //margin-left: auto;
 }
-a {
+.fa {
   display: inline;
   margin: 5px;
   padding: 2px;
   background-color: rgba(255, 255, 255, 0.804);
   border-radius: 4px;
+  color: rgb(59, 101, 190)
+}
+.fa:hover {
+  color: gray;
 }
 mat-card-subtitle {
   font-size: 18px;
@@ -74,7 +76,7 @@ mat-card-content {
   font-size: 20px;
   font-family: "Karla";
 }
-.sinai-card{
+.michelle-card{
   margin: 0px;
 }
 .sebene-card{
@@ -85,4 +87,11 @@ mat-card-content {
 }
 .emily-card{
   margin: 0px;
+}
+.portfilio{
+  display: inline;
+  color: rgb(59, 101, 190)
+}
+.portfilio:hover{
+  color: gray;
 }
