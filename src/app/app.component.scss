@@ -6,6 +6,12 @@
   display: inline-flex;
   font-size: 20px;
 }
+.navbar-header img {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
 .navbar-brand {
   color: black;
 }
@@ -27,7 +33,6 @@ a:hover {
 .container-fluid {
   border-bottom: 4px solid black;
   width: 75%;
-  padding-bottom: 15px;
 }
 i {
   margin: 10px;
