@@ -7,14 +7,13 @@
   font-size: 20px;
 }
 .navbar-brand {
-  color: gray;
+  color: black;
 }
 .navbar-brand:hover {
-  color: black;
+  color: gray;
 }
 .navbar.navbar-expand-lg.navbar-light {
   margin-top: 1.5vw;
-  //border: 1px solid blue;
 }
 a {
   display: inline;
@@ -24,7 +23,6 @@ a {
 }
 a:hover {
   color: rgb(0, 0, 0);
-  background-color: transparent;
 }
 .container-fluid {
   border-bottom: 4px solid black;
@@ -38,8 +36,6 @@ i {
   background-color: white;
 }
 #margin_nav {
-  //margin-left: 22%;
-  //position: absolute;
   float: right;
 }
 
