@@ -13,3 +13,6 @@ To change who is receiving the emails:
 1. Go to the templates tab
 2. Select the template you'd like to edit (contact-us or join-us)
 3. In the "To Email" section enter the desired recipient's email
+
+### To Build and Deploy
+Refer to this [Google Doc](https://docs.google.com/document/d/1A8TPg3EkRdBh0NaFkoDP7AxFb5GfjCrW5yuwMVi2w38/edit)
